@@ -1,5 +1,8 @@
 .page {
     background:#2A2C2F;
-    min-width: 1280px;
+    width: 1280px;
     min-height: 6874px;
+    font-family: Inter;
+    color: #FFFFFF;
+    margin: 0 auto;
 }
