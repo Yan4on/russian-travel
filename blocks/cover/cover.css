@@ -4,6 +4,6 @@
 @import url('./__overlay/cover__overlay.css');
 
 .cover {
-    width: 1184px;
-    height: 740px;
+    max-width: 1184px;
+    min-height: 740px;
 }

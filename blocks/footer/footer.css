@@ -3,10 +3,9 @@
 @import url('./__copyright/footer__copyright.css');
 
 .footer {
-    width: 1184px;
-    height: 18px;
+    max-width: 1184px;
+    min-height: 18px;
     display: flex;
-    width: 1184px;
-    height: 18px;
     justify-content: space-between;
+    padding: 4.5% 0 24px 4%;
 }
