@@ -1,4 +1,4 @@
 .cover__background {
-    width: 1184px;
-    height: 740px;
+    max-width: 109%;
+    min-height: 740px;
 }

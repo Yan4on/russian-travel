@@ -1,4 +1,4 @@
 .places {
-    width: 984px;
-    height: 3500px;
+    max-width: 100%;
+    min-height: 3550px;
 }
