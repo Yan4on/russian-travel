@@ -11,3 +11,10 @@
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
 }
+
+@media screen and (max-width: 1024px) {
+    .page {
+    max-width: 1024px;
+    min-height: 6898px;
+    }
+    }

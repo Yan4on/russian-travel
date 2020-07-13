@@ -3,3 +3,11 @@
     min-height: 618px;
     margin: 0 148px;
 }
+
+@media screen and (max-width: 1024px) {
+.lead__image {
+    max-width: 927px;
+    min-height: 580px;
+    margin: 0 0 0 48px;
+}
+}

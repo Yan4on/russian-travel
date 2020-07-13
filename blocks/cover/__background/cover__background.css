@@ -2,3 +2,10 @@
     max-width: 109%;
     min-height: 740px;
 }
+
+@media screen and (max-width: 1024px) {
+.cover__background {
+    max-width: 1006px;
+    min-height: 640px;
+}
+}

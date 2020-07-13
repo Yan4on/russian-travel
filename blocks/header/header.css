@@ -1,11 +1,18 @@
-@import url('./__logo/header__logo.css');
-@import url('./__lang-links/header__lang-links.css');
-@import url('./__lang-link/header__lang-link.css');
+@import url("./__logo/header__logo.css");
+@import url("./__lang-links/header__lang-links.css");
+@import url("./__lang-link/header__lang-link.css");
 
 .header {
-    max-width: 1232px;
-    min-height: 52px;
-    display: flex;
-    justify-content: space-between;
-    margin: 0;
+  max-width: 1252px;
+  min-height: 52px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+  max-width: 928px;
+  min-height: 52px;
+}
 }
