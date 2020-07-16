@@ -1,8 +1,20 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('/vendor/fonts/Inter-Regular.woff');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/vendor/fonts/Inter-Bold.woff');
+    font-weight: bold;
+}
+
 .page {
     background:#2A2C2F;
     max-width: 1280px;
     min-height: 6874px;
-    font-family: Inter;
+    font-family: 'Inter', Arial, sans-serif;
     color: #FFFFFF;
     margin: 0 auto;
     -webkit-font-smoothing: antialiased;
@@ -17,4 +29,18 @@
     max-width: 1024px;
     min-height: 6898px;
     }
+}
+
+@media screen and (max-width: 768px) {
+    .page {
+    max-width: 768px;
+    min-height: 6846px;
     }
+}
+
+@media screen and (max-width: 320px) {
+    .page {
+    max-width: 320px;
+    min-height: 9617px;
+    }
+}

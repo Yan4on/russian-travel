@@ -2,3 +2,11 @@
     max-width: 100%;
     min-height: 213px;
 }
+
+@media screen and (max-width: 320px) {
+.photo-grid_item {
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 288px;
+    min-height: 216px;
+    }
+}

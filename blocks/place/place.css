@@ -19,7 +19,25 @@
 
 @media screen and (max-width: 1024px) {
 .place {
-    padding: 92px 42px;
-    grid-gap: 63px 37px;
+    padding: 100px 44px;
+    grid-gap: 45px 37px;
+    }
 }
+
+@media screen and (max-width: 768px) {
+.place {
+    padding: 92px 24px;
+    grid-gap: 46px 25px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+.place {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    min-height: 963px;
+    padding: 0;
+    grid-gap: 46px 25px;
+    }
 }

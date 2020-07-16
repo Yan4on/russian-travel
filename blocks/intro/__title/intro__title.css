@@ -5,11 +5,27 @@
     font-size: 54px;
     line-height: 58px;
     /* identical to box height, or 107% */
-    margin: 7.5% 0 2.5% 148px;
+    margin: 6.5% 0 2.5% 148px;
 }
 
 @media screen and (max-width: 1024px) {
 .intro__title {
     margin: 0 0 3.5% 48px;
+    }
 }
+
+@media screen and (max-width: 768px) {
+.intro__title {
+    margin: 20px 0 3.4% 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+.intro__title {
+    max-width: 245px;
+    min-height: 70px;
+    font-size: 32px;
+    line-height: 35px;
+    margin: 20px 0 11.4% 16px;
+    }
 }

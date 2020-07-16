@@ -11,5 +11,37 @@
 @media screen and (max-width: 1024px) {
 .place__title {
     max-width: 440px;
+    }
 }
+
+@media screen and (max-width: 768px) {
+.place__title {
+    max-width: 320px;
+    font-size: 42px;
+    line-height: 46px;
+    justify-content: flex-end;
+    flex-direction: column;
+    display: flex;
+    }
+}
+
+@media screen and (max-width: 768px) {
+.place__title:nth-of-type(4) {
+    max-width: 330px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+.place__title {
+    max-width: 288px;
+    min-height: 40px;
+    font-size: 32px;
+    line-height: 35px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding-bottom: 30px;
+    }
 }

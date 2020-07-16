@@ -1,0 +1,5 @@
+@media screen and (max-width: 1024px) {
+    .footer__menu {
+      padding-left: 8px;
+    }
+  }
