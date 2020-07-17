@@ -13,7 +13,7 @@
 .cover__overlay {
   max-width: 1006px;
   min-height: 640px;
-  padding: 0 0;
+  padding: 0;
   }
 }
   
@@ -21,6 +21,7 @@
 .cover__overlay {
   max-width: 768px;
   min-height: 480px;
+  padding: 0;
   }
 }
 
@@ -28,5 +29,6 @@
 .cover__overlay {
     max-width: 320px;
     min-height: 200px;
+    padding: 0;
   }
 }
