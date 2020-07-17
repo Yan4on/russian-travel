@@ -9,6 +9,7 @@
     left: 30%;
     top: 23%;
     z-index: 2;
+    text-shadow: 0 0 10px black;
 }
 
 @media (min-width: 1024px) and (max-width: 1279px) {
