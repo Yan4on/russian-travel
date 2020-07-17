@@ -8,7 +8,7 @@
   margin: 0 auto 64px auto;
 }
 
-@media screen and (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 424px) {
 .lead__subtitle {
   max-width: 288px;
   min-height: 40px;

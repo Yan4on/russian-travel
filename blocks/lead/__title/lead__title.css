@@ -9,7 +9,7 @@
   margin: 0 auto 24px auto;
 }
 
-@media screen and (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 424px) {
 .lead__title {
   max-width: 288px;
   min-height: 88px;

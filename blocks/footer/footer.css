@@ -12,14 +12,14 @@
   padding: 4.5% 0 24px 4%;
 }
 
-@media screen and (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1279px) {
   .footer {
     max-width: 928px;
     min-height: 18px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 424px) {
   .footer {
     display: flex;
     flex-direction: column;

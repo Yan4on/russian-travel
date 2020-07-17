@@ -9,13 +9,13 @@
     padding: 5% 0 0 0; 
 }
 
-@media screen and (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1023px) {
 .lead {
     padding: 7% 0 0 0;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 424px) {
 .lead {
     padding: 14% 0 0 0;
     }

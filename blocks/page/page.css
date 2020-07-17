@@ -1,52 +1,35 @@
-@font-face {
-    font-family: 'Inter';
-    src: url('/vendor/fonts/Inter-Regular.woff'),
-    url('/vendor/fonts/Inter-Regular.woff2'),
-    url(/vendor/fonts/Inter-Regular.woff),
-    url(/vendor/fonts/Inter-Regular.woff2);
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: 'Inter';
-    src: url('/vendor/fonts/Inter-Bold.woff'),
-    url('/vendor/fonts/Inter-Bold.woff2'),
-    url(/vendor/fonts/Inter-Bold.woff),
-    url(/vendor/fonts/Inter-Bold.woff2);
-    font-weight: bold;
-}
 
 .page {
-    background:#2A2C2F;
-    max-width: 1280px;
-    min-height: 6874px;
-    font-family: 'Inter', Arial, sans-serif;
-    color: #FFFFFF;
-    margin: 0 auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
+  background: #2a2c2f;
+  max-width: 1280px;
+  min-height: 6874px;
+  font-family: 'Inter', Times New Roman, sans-serif;
+  color: #ffffff;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
 }
 
 @media (min-width: 1024px) and (max-width: 1279px) {
-    .page {
+  .page {
     max-width: 1024px;
     min-height: 6898px;
-    }
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-    .page {
+  .page {
     max-width: 768px;
     min-height: 6846px;
-    }
+  }
 }
 
 @media (min-width: 320px) and (max-width: 424px) {
-    .page {
+  .page {
     max-width: 320px;
     min-height: 9617px;
-    }
+  }
 }
