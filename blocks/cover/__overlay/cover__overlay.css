@@ -3,6 +3,8 @@
   min-height: 740px;
   padding: 0% 4%;
   opacity: 1;
+  position: absolute;
+  z-index: -2;
 }
 
 .cover__overlay:hover {
