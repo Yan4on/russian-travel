@@ -1,20 +1,23 @@
 .place__url {
-    max-width: 456px;
-    min-height: 12px;
-    font-size: 12px;
-    line-height: 12px;
-    font-weight: normal;
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
-    color: #AAAAAA;
-    margin-bottom:0 0 12px 0;
-    
+  max-width: 456px;
+  min-height: 12px;
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #aaaaaa;
+  margin-bottom: 0 0 12px 0;
 }
 
-
 @media (min-width: 768px) and (max-width: 1023px) {
-.place__url {
+  .place__url {
     max-width: 352px;
-    
-    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 424px) {
+  .place__url {
+    display: none;
+  }
 }
