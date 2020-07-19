@@ -1,33 +1,28 @@
 .cover__background {
-    width: 1184px;
-    min-height: 740px;
+    width: 100%;
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
 .cover__background {
-    width: 100%;
-    min-height: 640px;
+    
     }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
 .cover__background {
-    width: 100%;
-    min-height: 480px;
+    
+    
     }
 }
 
-@media (min-width: 425px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
 .cover__background {
-    width: 100%;
-    min-height: 530px;
+    
     }
 }
 
-@media (min-width: 320px) and (max-width: 424px) {
+@media screen and (max-width: 424px) {
 .cover__background {
-    width: 320px;
-    min-height: 200px;
     padding-top: 0;
     }
 }

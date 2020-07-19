@@ -10,13 +10,7 @@
     padding-top:3%;
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
-.intro {
-    padding-top: 10%;
-    }
-}
-
-@media (max-width: 768px) {
+@media screen and (max-width: 1279px) {
 .intro {
     padding-top: 10%;
     }

@@ -4,6 +4,13 @@
     align-self: flex-end;
 }
 
+@media (min-width: 425px) and (max-width: 666px) {
+.place__website {
+    align-self: end;
+    padding-bottom: 2%;
+    }
+}
+
 @media (min-width: 768px) and (max-width: 1023px) {
 .place__website {
     max-width: 352px;

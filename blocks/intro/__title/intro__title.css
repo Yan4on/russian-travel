@@ -1,37 +1,36 @@
 .intro__title {
     max-width: 690px;
-    min-height: 58px;
     font-weight: 900;
     font-size: 54px;
     line-height: 58px;
-    /* identical to box height, or 107% */
     margin: 6.5% 0 2.5% 148px;
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
 .intro__title {
     margin: 0 0 3.5% 48px;
     }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
 .intro__title {
     margin: 20px 0 3.4% 24px;
     }
 }
 
-@media (min-width: 425px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
 .intro__title {
-    margin: 20px 0 3.4% 10%;
+    margin-left: 10%;
     }
 }
 
-@media (min-width: 320px) and (max-width: 424px) {
+@media screen and (max-width: 424px) {
 .intro__title {
     max-width: 245px;
     min-height: 70px;
     font-size: 32px;
     line-height: 35px;
-    margin: 20px 0 11.4% 16px;
+    margin-bottom: 11.4%;
+    margin-left: 16px;
     }
 }

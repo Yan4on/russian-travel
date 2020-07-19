@@ -1,27 +1,26 @@
-.place__website_link {
+.place__link {
     max-width: 456px;
     min-height: 22px;
     color: white;
     font-size: 18px;
     line-height: 22px;
-/* identical to box height, or 122% */
     text-decoration-line: underline;
     margin: 0;
 }
 
-.place__website_link:hover {
+.place__link:hover {
     opacity: 0.5;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-.place__website {
+.place__link {
     max-width: 352px;
     min-width: 22px;
     }
 }
 
 @media (min-width: 320px) and (max-width: 424px) {
-.place__website {
+.place__link {
     display: none;
     }
 }

@@ -7,20 +7,21 @@
     margin:0 auto 7% 148px;
     padding: 0;
     list-style-type: none;
-    font-weight: lighter;
+    font-weight: normal;
 }
 
 
 @media (min-width: 1024px) and (max-width: 1279px) {
 .intro__list {
-    margin: 0 auto 7.5% 48px;
+    margin: 0 auto 2.5% 48px;
     }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
 .intro__list {
     max-width: 720px;
-    margin: 0 auto 10% 24px;
+    margin-bottom: 10%;
+    margin-left: 24px;
     }
 }
 

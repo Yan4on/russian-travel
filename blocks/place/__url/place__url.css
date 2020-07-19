@@ -1,20 +1,20 @@
-.place__website_url-heading {
+.place__url {
     max-width: 456px;
     min-height: 12px;
     font-size: 12px;
     line-height: 12px;
     font-weight: normal;
     text-transform: uppercase;
-/* identical to box height, or 100% */
     letter-spacing: 0.2em;
     color: #AAAAAA;
     margin-bottom:0 0 12px 0;
     
 }
 
+
 @media (min-width: 768px) and (max-width: 1023px) {
-.place__website {
+.place__url {
     max-width: 352px;
-    min-width: 12px;
+    
     }
 }

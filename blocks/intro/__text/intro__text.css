@@ -2,7 +2,6 @@
   max-width: 690px;
   font-size: 16px;
   line-height: 26px;
-/* or 162% */
   margin: 9px auto 36px 148px;
 }
 
@@ -15,20 +14,22 @@
 @media (min-width: 768px) and (max-width: 1023px) {
 .intro__text {
   max-width: 720px;
-  margin: 0 auto 37px 24px;
+  margin-left: 24px;
   }
 }
 
 @media (min-width: 425px) and (max-width: 767px) {
 .intro__text {
-    margin: 0 auto 3.4% 10%;
+    margin-bottom: 3.4%;
+    margin-left: 10%;
     }
 }
 
 @media (min-width: 320px) and (max-width: 424px) {
 .intro__text {
   max-width: 288px;
-  margin: 0 auto 35px 16px;
+  margin-bottom: 35px;
+  margin-left: 16px;
   }
 }
 
