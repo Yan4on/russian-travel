@@ -10,11 +10,11 @@
 }
 
 @media (min-width: 320px) and (max-width: 424px) {
-.lead__title {
-  max-width: 288px;
-  min-height: 88px;
-  font-size: 40px;
-  line-height: 44px;
-  margin-bottom: 14px;
+  .lead__title {
+    max-width: 288px;
+    min-height: 88px;
+    font-size: 40px;
+    line-height: 44px;
+    margin-bottom: 14px;
   }
 }

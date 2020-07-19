@@ -7,14 +7,21 @@
   .place__image {
     max-width: 440px;
     min-height: 440px;
-    padding-bottom: 8.5%;
+    /* padding-bottom: 8.5%; */
   }
 }
 
-@media screen and (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .place__image {
     max-width: 340px;
     min-height: 340px;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+  .place__image {
+    max-width: 330px;
+    min-height: 330px;
   }
 }
 

@@ -2,3 +2,13 @@
     color: white;
     text-decoration: none;
 }
+
+.footer__link_text:hover {
+    opacity: 0.5;
+}
+
+@media (min-width: 320px) and (max-width: 424px) {
+.footer__link_text {
+   margin: 0;
+    }
+}

@@ -1,3 +1,4 @@
 .place__paragraph {
+    max-width: 456px;
     padding: auto;
 }

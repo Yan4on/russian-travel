@@ -2,3 +2,9 @@
     font-weight: bold;
     margin-left: 0;
 }
+
+@media (min-width: 320px) and (max-width: 424px) {
+.intro__list {
+    margin-right: 0;
+    }
+}
