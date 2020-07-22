@@ -25,16 +25,20 @@
   }
 }
 
-@media screen and (max-width: 580px) {
-  .footer {
-    flex-direction: column;
-    max-width: 186px;
-  }
-}
 
 @media (min-width: 425px) and (max-width: 480px) {
   .footer {
     padding-top: 0;
   }
 }
+
+
+@media screen and (max-width: 580px) {
+  .footer {
+    flex-direction: column;
+    max-width: 186px;
+    padding-top: 14.8%;
+  }
+}
+
 
