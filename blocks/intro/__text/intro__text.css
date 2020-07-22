@@ -7,7 +7,8 @@
 
 @media (min-width: 1024px) and (max-width: 1279px) {
 .intro__text {
-  margin: 0 auto 37px 48px;
+  margin-top: 0;
+  margin-left: 48px;
   }
 }
 
@@ -30,6 +31,12 @@
   max-width: 288px;
   margin-bottom: 35px;
   margin-left: 16px;
+  margin-top: 2px;
   }
 }
 
+@media screen and (max-width: 319px) {
+.intro__text {
+  margin-left: 7%;
+  }
+}

@@ -1,12 +1,4 @@
 .photo-grid__item {
     max-width: 100%;
-
 }
 
-
-@media screen and (max-width: 424px) {
-.photo-grid_item {
-    grid-template-columns: repeat(1, 1fr);
-    max-width: 288px;
-    }
-}

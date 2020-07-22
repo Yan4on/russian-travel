@@ -1,6 +1,5 @@
 .place__link {
     max-width: 456px;
-    min-height: 22px;
     color: white;
     font-size: 18px;
     line-height: 22px;
@@ -9,13 +8,12 @@
 }
 
 .place__link:hover {
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
 .place__link {
     max-width: 352px;
-    min-width: 22px;
     }
 }
 

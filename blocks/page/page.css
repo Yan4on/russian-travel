@@ -1,7 +1,7 @@
 
 .page {
-  background: #2a2c2f;
   max-width: 1280px;
+  background: #2a2c2f;
   font-family: 'Inter', Arial, sans-serif;
   color: #ffffff;
   margin: 0 auto;
@@ -29,3 +29,4 @@
     max-width: 320px;
   }
 }
+
